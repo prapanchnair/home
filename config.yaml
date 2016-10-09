@@ -1,0 +1,24 @@
+BaseUrl: "http://yet.unresolved.xyz"
+LanguageCode: "en-us"
+Title: "Prapanch Nair"
+
+Params:
+  Author: "Prapanch Nair"
+  DateForm: "Sun, July 17, 2016"
+  GoogleAnalyticsUserID: "UA-80874953-1"
+#  Facebook: "daisuke.tsuji.735"
+  Twitter: "prapanchnair"
+  Researchgate: ""
+  Github: "prapanchnair"
+  ShowRelatedPost: True
+  Disqus: "prapanchnair"
+  SyntaxHighlightTheme: "github.min.css"
+
+Indexes:
+  tag: "tags"
+  category: "categories"
+
+permalinks:
+  post: /blog/:year/:month/:day/:slug/
+
+MetadataFormat: "yaml"
