@@ -4,7 +4,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project. 
 rm -rf public/*
-hugo -t beg
+hugo -t hugo-theme-crisp
 
 # Add changes to git.
 git add -A
