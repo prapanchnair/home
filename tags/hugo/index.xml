@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Prapanch Nair </title>
+    <title>Hugo on Prapanch Nair</title>
     <link>http://prapanchnair.github.io/home/tags/hugo/</link>
+    <description>Recent content in Hugo on Prapanch Nair</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Prapanch Nair</author>
-    <rights>(C) 2016</rights>
-    <updated>2015-01-10 00:00:00 &#43;0000 UTC</updated>
-
+    <lastBuildDate>Sat, 10 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://prapanchnair.github.io/home/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>About Beg</title>
+      <link>http://prapanchnair.github.io/home/blog/2015/01/10/about-beg/</link>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>About Beg</title>
-          <link>http://prapanchnair.github.io/home/blog/2015/01/10/about-beg/</link>
-          <pubDate>Sat, 10 Jan 2015 00:00:00 UTC</pubDate>
-          <author>Prapanch Nair</author>
-          <guid>http://prapanchnair.github.io/home/blog/2015/01/10/about-beg/</guid>
-          <description>
+      <guid>http://prapanchnair.github.io/home/blog/2015/01/10/about-beg/</guid>
+      <description>
 
 &lt;p&gt;Beg is a double-column theme for &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
 
@@ -106,17 +105,15 @@ Contents here
 
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/dim0627&#34;&gt;https://twitter.com/dim0627&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>http://prapanchnair.github.io/home/blog/2014/04/02/getting-started-with-hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Getting Started with Hugo</title>
-          <link>http://prapanchnair.github.io/home/blog/2014/04/02/getting-started-with-hugo/</link>
-          <pubDate>Wed, 02 Apr 2014 00:00:00 UTC</pubDate>
-          <author>Prapanch Nair</author>
-          <guid>http://prapanchnair.github.io/home/blog/2014/04/02/getting-started-with-hugo/</guid>
-          <description>
+      <guid>http://prapanchnair.github.io/home/blog/2014/04/02/getting-started-with-hugo/</guid>
+      <description>
 
 &lt;h2 id=&#34;step-1-install-hugo:c57cc0038c788519b441e0331c8bebc7&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
 
@@ -195,9 +192,7 @@ Having nearly instant feedback enables you to have your creativity flow without 
 
 &lt;p&gt;The best way to learn something is to play with it.&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>
