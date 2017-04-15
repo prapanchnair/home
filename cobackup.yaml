@@ -1,7 +1,6 @@
 BaseUrl: "http://prapanchnair.github.io/home"
 LanguageCode: "en-us"
 Title: "Prapanch Nair"
-canonifyurls: "true"
 
 Params:
   Author: "Prapanch Nair"
@@ -15,7 +14,11 @@ Params:
   Disqus: "prapanchnair"
   SyntaxHighlightTheme: "github.min.css"
 
-Permalinks:
+Indexes:
+  tag: "tags"
+  category: "categories"
+
+permalinks:
   post: /blog/:year/:month/:day/:slug/
   top: "/:filename/"
   hacking: "/hacking/:filename/"
