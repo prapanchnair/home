@@ -1,23 +1,18 @@
-
-<article class="post">
-    <header>
-        <div class="post-date">
-            <span class="glyphicon glyphicon-calendar"></span>
-            <time datetime="{{ .Date.Format .Site.Params.DateForm }}">
-                {{ .Date.Format .Site.Params.DateForm }}
-            </time>
-        </div>
-        <h1 class="post-title">
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </h1>
-    </header>
-    <div class="post-content">
-        {{ .Summary }}
-    </div>
-    <footer class="readon">
-        <a href="{{ .Permalink }}" class="btn btn-default">
-            READ ON
-        </a>
-    </footer>
-</article>
-<hr>
+{{ $baseurl := .Site.BaseURL }}
+<section class="{{ .Section }}">
+	<h3 class="post-title">
+		<a href="{{ .Permalink }}">{{ .Title }}</a>
+		<span class="separator"> &middot; </span>
+		<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+            {{ .Date.Format "2 Jan 2006" }}
+        </time>
+		<span class="taglist">
+		{{if .Params.tags }}
+		&middot; 
+    	{{ range $index, $tag := .Params.tags }}
+            <a href="{{ $baseurl }}tags/{{ $tag | urlize }}/">{{ $tag }}</a>
+        {{ end }}
+    	{{ end }}
+		</span>
+	</h3>
+</section>

@@ -1,23 +1,19 @@
-{{ partial "default_head.html" . }}
+{{ partial "header.html" . }}
+		<main id="content">
+		<span class="categorylist">
+		<span>Categories &middot;</span>
+		<a href="/">All</a>
+{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+<a href="/categories/{{ $name | urlize }}">{{ $name }}</a>
+{{ end }}
+</span>
 
-<div class="row">
-    <div class="col-md-8">
-        <div class="posts">
-            {{ range first 10 (where .Data.Pages "Type" "post") }}
-            {{ .Render "li" }}
-            {{ end }}
-            <nav>
-                <ul class="pager">
-                    <li><a href="{{ .Site.BaseUrl }}/post">All Pots</a></li>
-                    <!--                    <li><a href="{{ .Site.BaseUrl }}/research">Research</a></li> -->
-                </ul>
-            </nav>
+{{ $paginator := .Paginator }}
 
-        </div>
-    </div>
-    <div class="col-md-4">
-        {{ partial "sidebar.html" . }}
-    </div>
-</div>
+    {{ range $index, $page := .Paginator.Pages }}
+        {{ .Render "li" }}
+    {{ end }}
 
-{{ partial "default_foot.html" . }}
+    	{{ partial "pagination.html" $paginator }}
+		</main>
+{{ partial "footer.html" . }}

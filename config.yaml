@@ -20,5 +20,8 @@ Indexes:
 
 permalinks:
   post: /blog/:year/:month/:day/:slug/
+  top: "/:filename/"
+  hacking: "/hacking/:filename/"
+  shorts: "shorts/:filename"
 
 MetadataFormat: "yaml"
