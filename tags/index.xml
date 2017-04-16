@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prapanch Nair</title>
+    <link>http://prapanchnair.github.io/home/tags/</link>
+    <description>Recent content on Prapanch Nair</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Apr 2017 08:54:37 +0200</lastBuildDate>
+    <atom:link href="http://prapanchnair.github.io/home/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>singlepage</title>
+      <link>http://prapanchnair.github.io/home/singlepage/</link>
+      <pubDate>Sun, 16 Apr 2017 08:54:37 +0200</pubDate>
+      
+      <guid>http://prapanchnair.github.io/home/singlepage/</guid>
+      <description>&lt;p&gt;Hello world&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>singlepage</title>
+      <link>http://prapanchnair.github.io/home/singlepage/</link>
+      <pubDate>Sun, 16 Apr 2017 08:54:37 +0200</pubDate>
+      
+      <guid>http://prapanchnair.github.io/home/singlepage/</guid>
+      <description>&lt;p&gt;Hello world&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>secularism</title>
+      <link>http://prapanchnair.github.io/home/philosophy/secularism/</link>
+      <pubDate>Sun, 16 Apr 2017 08:45:39 +0200</pubDate>
+      
+      <guid>http://prapanchnair.github.io/home/philosophy/secularism/</guid>
+      <description>&lt;p&gt;Religious secularism has become an intensely debated idea all over the world today.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>secularism</title>
+      <link>http://prapanchnair.github.io/home/philosophy/secularism/</link>
+      <pubDate>Sun, 16 Apr 2017 08:45:39 +0200</pubDate>
+      
+      <guid>http://prapanchnair.github.io/home/philosophy/secularism/</guid>
+      <description>&lt;p&gt;Religious secularism has become an intensely debated idea all over the world today.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
