@@ -8,7 +8,7 @@
 {{ end }}
 </span>
 
-{{ $paginator := .Paginator }}
+{{ $paginator := .Paginate (where .Data.Pages "Type" "!=" "page") 10}}
 
     {{ range $index, $page := .Paginator.Pages }}
         {{ .Render "li" }}
