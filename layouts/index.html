@@ -8,6 +8,7 @@
 {{ end }}
 </span>
 
+    {{ template "_internal/google_analytics.html" . }} 
 {{ $paginator := .Paginate (where .Data.Pages "Type" "!=" "page") 10}}
 
     {{ range $index, $page := .Paginator.Pages }}
