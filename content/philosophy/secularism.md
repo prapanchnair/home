@@ -10,7 +10,9 @@ title: secularism
 Religious secularism has become an intensely debated idea all over the world today. 
 In secular India, especially, secular opinions are sometimes discredited as giving too much
 leeway for people with vested interests to take advantage of. Secularism as an idea
-is growing subtler and from there it could soon become ambiguous. This is where I 
+is growing subtler and from there it could soon become ambiguous. There are instances
+where secular movements are equated to anti-national movements especially when the
+interests seem to conflict.  This is where I 
 feel the need to share my understanding of it. I am a Hindu. The more my intellectual
 exploration of existence grew, the more I found fitting into the definition of a Hindu. 
 I know close to nothing about other religions. From the hinduism tinted view, here 
