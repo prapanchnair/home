@@ -22,8 +22,8 @@
         
 
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@" />
-        <meta name="twitter:creator" content="@" />
+        <meta name="twitter:site" content="@prapanchnair" />
+        <meta name="twitter:creator" content="@prapanchnair" />
         <meta name="twitter:title" content="(Hu)go Template Primer" />
         <meta name="twitter:description" content="" />
         <meta name="twitter:url" content="http://prapanchnair.github.io/home/blog/2014/04/02/hugo-template-primer/" />
@@ -62,7 +62,7 @@
         },
         "datePublished": "2014-04-02",
         "description": "",
-        "wordCount":  1488 
+        "wordCount": 1488
     }
     </script>
     
@@ -88,6 +88,7 @@
 	<a href="http://prapanchnair.github.io/homeindex.xml" rel="me"><i class="fa fa-rss-square fa-2x"></i></a> 
 </div>  
             
+
         </header>
 
 <main id="content">
@@ -139,7 +140,7 @@ similarities in go templates.</p>
 <p>This document is a brief primer on using go templates. The <a href="http://golang.org/pkg/html/template/&gt;">go docs</a>
 provide more details.</p>
 
-<h2 id="introduction-to-go-templates:4d30d99f79bd431d57546bbed04b7347">Introduction to Go Templates</h2>
+<h2 id="introduction-to-go-templates">Introduction to Go Templates</h2>
 
 <p>Go templates provide an extremely simple template language. It adheres to the
 belief that only the most basic of logic belongs in the template or view layer.
@@ -149,7 +150,7 @@ One consequence of this simplicity is that go templates parse very quickly.</p>
 content will be sanitized depending on the context of where they are used. More
 details can be found in the <a href="http://golang.org/pkg/html/template/&gt;">go docs</a>.</p>
 
-<h2 id="basic-syntax:4d30d99f79bd431d57546bbed04b7347">Basic Syntax</h2>
+<h2 id="basic-syntax">Basic Syntax</h2>
 
 <p>Go lang templates are html files with the addition of variables and
 functions.</p>
@@ -180,7 +181,7 @@ functions.</p>
 <pre><code>{{ if or (isset .Params &quot;alt&quot;) (isset .Params &quot;caption&quot;) }} Caption {{ end }}
 </code></pre>
 
-<h2 id="variables:4d30d99f79bd431d57546bbed04b7347">Variables</h2>
+<h2 id="variables">Variables</h2>
 
 <p>Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
@@ -198,7 +199,7 @@ page you are rendering. More details are available on the
 {{ $address }}
 </code></pre>
 
-<h2 id="functions:4d30d99f79bd431d57546bbed04b7347">Functions</h2>
+<h2 id="functions">Functions</h2>
 
 <p>Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
@@ -213,7 +214,7 @@ functions cannot be added without recompiling hugo.</p>
 <pre><code>{{ add 1 2 }}
 </code></pre>
 
-<h2 id="includes:4d30d99f79bd431d57546bbed04b7347">Includes</h2>
+<h2 id="includes">Includes</h2>
 
 <p>When including another template you will pass to it the data it will be
 able to access. To pass along the current context please remember to
@@ -225,11 +226,11 @@ the /layout/ directory within Hugo.</p>
 <pre><code>{{ template &quot;chrome/header.html&quot; . }}
 </code></pre>
 
-<h2 id="logic:4d30d99f79bd431d57546bbed04b7347">Logic</h2>
+<h2 id="logic">Logic</h2>
 
 <p>Go templates provide the most basic iteration and conditional logic.</p>
 
-<h3 id="iteration:4d30d99f79bd431d57546bbed04b7347">Iteration</h3>
+<h3 id="iteration">Iteration</h3>
 
 <p>Just like in go, the go templates make heavy use of range to iterate over
 a map, array or slice. The following are different examples of how to use
@@ -257,7 +258,7 @@ range.</p>
 {{ end }}
 </code></pre>
 
-<h3 id="conditionals:4d30d99f79bd431d57546bbed04b7347">Conditionals</h3>
+<h3 id="conditionals">Conditionals</h3>
 
 <p>If, else, with, or, &amp; and provide the framework for handling conditional
 logic in Go Templates. Like range, each statement is closed with <code>end</code>.</p>
@@ -309,7 +310,7 @@ and skips the block if the variable is absent.</p>
 {{ end }}
 </code></pre>
 
-<h2 id="pipes:4d30d99f79bd431d57546bbed04b7347">Pipes</h2>
+<h2 id="pipes">Pipes</h2>
 
 <p>One of the most powerful components of go templates is the ability to
 stack actions one after another. This is done by using pipes. Borrowed
@@ -357,7 +358,7 @@ Stuff Here
 {{ end }}
 </code></pre>
 
-<h2 id="context-aka-the-dot:4d30d99f79bd431d57546bbed04b7347">Context (aka. the dot)</h2>
+<h2 id="context-aka-the-dot">Context (aka. the dot)</h2>
 
 <p>The most easily overlooked concept to understand about go templates is that {{ . }}
 always refers to the current context. In the top level of your template this
@@ -379,7 +380,7 @@ instead of depending on the context.</p>
 have defined a variable outside of the loop so we have access to it from within
 the loop.</p>
 
-<h1 id="hugo-parameters:4d30d99f79bd431d57546bbed04b7347">Hugo Parameters</h1>
+<h1 id="hugo-parameters">Hugo Parameters</h1>
 
 <p>Hugo provides the option of passing values to the template language
 through the site configuration (for sitewide values), or through the meta
@@ -387,7 +388,7 @@ data of each specific piece of content. You can define any values of any
 type (supported by your front matter/config format) and use them however
 you want to inside of your templates.</p>
 
-<h2 id="using-content-page-parameters:4d30d99f79bd431d57546bbed04b7347">Using Content (page) Parameters</h2>
+<h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
 
 <p>In each piece of content you can provide variables to be used by the
 templates. This happens in the <a href="http://prapanchnair.github.io/home/content/front-matter">front matter</a>.</p>
@@ -419,7 +420,7 @@ notoc: true
   {{ end }}
 </code></pre>
 
-<h2 id="using-site-config-parameters:4d30d99f79bd431d57546bbed04b7347">Using Site (config) Parameters</h2>
+<h2 id="using-site-config-parameters">Using Site (config) Parameters</h2>
 
 <p>In your top-level configuration file (eg, <code>config.yaml</code>) you can define site
 parameters, which are values which will be available to you in chrome.</p>
@@ -498,7 +499,7 @@ so, such as in this example:</p>
           </a>
       </li>
 			<li class="linkedin">
-          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://prapanchnair.github.io/home/blog/2014/04/02/hugo-template-primer/&amp;title=%28Hu%29go%20Template%20Primer&amp;summary=Hugo%20uses%20the%20excellent%20go%20html%2ftemplate%20library%20for%20its%20template%20engine.%20It%20is%20an%20extremely%20lightweight%20engine%20that%20provides%20a%20very%20small%20amount%20of%20logic.%20In%20our%20experience%20that%20it%20is%20just%20the%20right%20amount%20of%20logic%20to%20be%20able%20to%20create%20a%20good%20static%20website.%20If%20you%20have%20used%20other%20template%20systems%20from%20different%20languages%20or%20frameworks%20you%20will%20find%20a%20lot%20of%20similarities%20in%20go%20templates.%20This%20document%20is%20a%20brief%20primer%20on%20using%20go%20templates...." class="popup">
+          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://prapanchnair.github.io/home/blog/2014/04/02/hugo-template-primer/&amp;title=%28Hu%29go%20Template%20Primer&amp;summary=Hugo%20uses%20the%20excellent%20go%20html%2ftemplate%20library%20for%20its%20template%20engine.%20It%20is%20an%20extremely%20lightweight%20engine%20that%20provides%20a%20very%20small%20amount%20of%20logic.%20In%20our%20experience%20that%20it%20is%20just%20the%20right%20amount%20of%20logic%20to%20be%20able%20to%20create%20a%20good%20static%20website.%20If%20you%20have%20used%20other%20template%20systems%20from%20different%20languages%20or%20frameworks%20you%20will%20find%20a%20lot%20of%20similarities%20in%20go%20templates.%0aThis%20document%20is%20a%20brief%20primer%20on%20using%20go%20templates...." class="popup">
               <span class="icon">
                   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
                       <path d="M25.424,15.887v8.447h-4.896v-7.882c0-1.979-0.709-3.331-2.48-3.331c-1.354,0-2.158,0.911-2.514,1.803 c-0.129,0.315-0.162,0.753-0.162,1.194v8.216h-4.899c0,0,0.066-13.349,0-14.731h4.899v2.088c-0.01,0.016-0.023,0.032-0.033,0.048 h0.033V11.69c0.65-1.002,1.812-2.435,4.414-2.435C23.008,9.254,25.424,11.361,25.424,15.887z M5.348,2.501 c-1.676,0-2.772,1.092-2.772,2.539c0,1.421,1.066,2.538,2.717,2.546h0.032c1.709,0,2.771-1.132,2.771-2.546 C8.054,3.593,7.019,2.501,5.343,2.501H5.348z M2.867,24.334h4.897V9.603H2.867V24.334z"/>
@@ -588,6 +589,20 @@ so, such as in this example:</p>
     <div id="comments">
     
     
+    
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname = 'prapanchnair';
+      var disqus_identifier = 'http:\/\/prapanchnair.github.io\/home\/blog\/2014\/04\/02\/hugo-template-primer\/';
+      var disqus_title = '(Hu)go Template Primer';
+      var disqus_url = 'http:\/\/prapanchnair.github.io\/home\/blog\/2014\/04\/02\/hugo-template-primer\/';
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     
     
 </div>
