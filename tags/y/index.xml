@@ -7,22 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Jul 2016 19:38:30 +0200</lastBuildDate>
-    <atom:link href="http://prapanchnair.github.io/home/tags/y/index.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>Understanding something</title>
-      <link>http://prapanchnair.github.io/home/hacking/understanding/</link>
-      <pubDate>Sun, 24 Jul 2016 19:38:30 +0200</pubDate>
-      
-      <guid>http://prapanchnair.github.io/home/hacking/understanding/</guid>
-      <description>&lt;p&gt;In research as a career it is becoming progressively difficult to find ones place in the ramifications of knowledge. Knowledge in any major science now stands as a giant tree with countless branches. No one person has a grand narrative. We are all perched randomly, sometimes even on the weakest of branches and no one person seems to have the grand narrative for it all.&lt;/p&gt;
-
-&lt;p&gt;In the near future, I can only imagine that this tree will ramify exponentially. As I think about this expansion of knowledge,&lt;/p&gt;
-
-&lt;p&gt;that one can reach successfully venture through these branches of the tree of knowledge to finally contribute at the tip of a branch, is by
-taking the parent branches for granted.&lt;/p&gt;
-</description>
-    </item>
+	<atom:link href="http://prapanchnair.github.io/home/tags/y/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Understanding something</title>
@@ -30,13 +17,8 @@ taking the parent branches for granted.&lt;/p&gt;
       <pubDate>Sun, 24 Jul 2016 19:38:30 +0200</pubDate>
       
       <guid>http://prapanchnair.github.io/home/blog/2016/07/24/understanding-something/</guid>
-      <description>&lt;p&gt;In research as a career it is becoming progressively difficult to find ones place in the ramifications of knowledge. Knowledge in any major science now stands as a giant tree with countless branches. No one person has a grand narrative. We are all perched randomly, sometimes even on the weakest of branches and no one person seems to have the grand narrative for it all.&lt;/p&gt;
-
-&lt;p&gt;In the near future, I can only imagine that this tree will ramify exponentially. As I think about this expansion of knowledge,&lt;/p&gt;
-
-&lt;p&gt;that one can reach successfully venture through these branches of the tree of knowledge to finally contribute at the tip of a branch, is by
-taking the parent branches for granted.&lt;/p&gt;
-</description>
+      <description>In research as a career it is becoming progressively difficult to find ones place in the ramifications of knowledge. Knowledge in any major science now stands as a giant tree with countless branches. No one person has a grand narrative. We are all perched randomly, sometimes even on the weakest of branches and no one person seems to have the grand narrative for it all.
+In the near future, I can only imagine that this tree will ramify exponentially.</description>
     </item>
     
   </channel>

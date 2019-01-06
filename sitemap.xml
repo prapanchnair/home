@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://prapanchnair.github.io/home/</loc>
-    <lastmod>2017-04-16T08:54:37+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://prapanchnair.github.io/home/singlepage/</loc>
-    <lastmod>2017-04-16T08:54:37+02:00</lastmod>
+    <loc>http://prapanchnair.github.io/home/philosophy/gunakarma/</loc>
+    <lastmod>2017-05-12T13:17:26+02:00</lastmod>
   </url>
   
   <url>
@@ -18,18 +13,8 @@
   </url>
   
   <url>
-    <loc>http://prapanchnair.github.io/home/hacking/understanding/</loc>
-    <lastmod>2016-07-24T19:38:30+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://prapanchnair.github.io/home/blog/2016/07/24/understanding-something/</loc>
     <lastmod>2016-07-24T19:38:30+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://prapanchnair.github.io/home/hacking/angular-setup/</loc>
-    <lastmod>2015-12-22T13:35:54+05:30</lastmod>
   </url>
   
   <url>
@@ -50,6 +35,143 @@
   <url>
     <loc>http://prapanchnair.github.io/home/blog/2014/04/02/getting-started-with-hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/tags/aryan-migration/</loc>
+    <lastmod>2017-05-12T13:17:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/tags/beg/</loc>
+    <lastmod>2015-01-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/tags/causation/</loc>
+    <lastmod>2017-04-16T08:45:39+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/categories/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/tags/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/tags/hugo/</loc>
+    <lastmod>2015-01-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/philosophy/</loc>
+    <lastmod>2017-05-12T13:17:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/categories/philosophy/</loc>
+    <lastmod>2017-05-12T13:17:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/post/</loc>
+    <lastmod>2016-07-24T19:38:30+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/</loc>
+    <lastmod>2017-05-12T13:17:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/tags/racial-superiority/</loc>
+    <lastmod>2017-05-12T13:17:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/tags/religion/</loc>
+    <lastmod>2017-04-16T08:45:39+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/tags/</loc>
+    <lastmod>2017-05-12T13:17:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/tags/templates/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/tags/themes/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/tags/x/</loc>
+    <lastmod>2016-07-24T19:38:30+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/categories/x/</loc>
+    <lastmod>2016-07-24T19:38:30+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/tags/y/</loc>
+    <lastmod>2016-07-24T19:38:30+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prapanchnair.github.io/home/categories/y/</loc>
+    <lastmod>2016-07-24T19:38:30+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
